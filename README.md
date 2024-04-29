@@ -93,7 +93,7 @@ Este es un backend desarrollado en Spring Boot que proporciona funcionalidades p
     ```
     Authorization: Bearer {token_de_acceso}
     ```
-  - Payload:
+  - Respuesta exitosa:
     ```json
     {
       "name": "nombre_ejemplo",
@@ -115,7 +115,7 @@ Este es un backend desarrollado en Spring Boot que proporciona funcionalidades p
 - **Obtener información de los usuarios**
   - Método: GET
   - URL: `/api/users`
-  - Payload:
+  - Respuesta exitosa:
       ```json
       {
         "name": "nombre_ejemplo",
@@ -137,7 +137,7 @@ Este es un backend desarrollado en Spring Boot que proporciona funcionalidades p
 - **Obtener información de los usuarios por paginacion**
   - Método: GET
   - URL: `/api/users/page/{numero de pagina}`
-  - Payload:
+  - Respuesta exitosa:
       ```json
         {
         "content": [
