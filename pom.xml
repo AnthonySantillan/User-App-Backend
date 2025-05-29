@@ -8,7 +8,7 @@
 		<version>3.2.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.springboot.backend.usersapp</groupId>
+	<groupId>com.springboot.backend.andres.usersapp</groupId>
 	<artifactId>users-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>users-backend</name>
@@ -29,6 +29,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
@@ -63,11 +64,10 @@
 		</dependency>
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>
-			<artifactId>jjwt-jackson</artifactId> <!-- or jjwt-gson if Gson is preferred -->
+			<artifactId>jjwt-jackson</artifactId>
 			<version>0.12.5</version>
 			<scope>runtime</scope>
 		</dependency>
-
 	</dependencies>
 
 	<build>
